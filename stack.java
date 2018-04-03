@@ -17,6 +17,7 @@ public class stack {
     
     // creo un método para poder usarlo en todo el proyecto
     public static void stack(){
+          // Agregamos elementos a la pila con un for
           for(int x = 1; x<=10; x++){
             pila.push(Integer.toString(x));
             System.out.println("Se ha agregado: "+x);
@@ -27,8 +28,9 @@ public class stack {
     }
     
     }
-    // Agregamos elementos a la pila con un for
+    
     public static void main(String[] args) {
+      // simplemente llamamos el método en nuestro main
       stack();
     
     }
